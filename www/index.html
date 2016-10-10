@@ -17,7 +17,7 @@
                 var m=dt.getMinutes();
                 var s = dt.getSeconds();
                 var id01= document.getElementById("id01");
-                id01.innerHTML =h+":"+m+":"+s;
+                id01.innerHTML =("0"+h).slice(-2)+":"+("0"+m).slice(-2)+":"+("0"+s).slice(-2);
             }
     </script>
 </head>
